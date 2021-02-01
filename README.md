@@ -1,3 +1,7 @@
+# Addis doxygen documentation
+# This will be used to document projects and publish to github
+# Each modification to the main.cpp will be published through github 
+
 # doxygen-cmake-github
 Demonstrates Doxygen html generation and publishing on GitHub Pages. The Doxygen files for this project can be seen [here](https://semcneil.github.io/doxygen-cmake-github/).
 
@@ -15,8 +19,8 @@ Demonstrates Doxygen html generation and publishing on GitHub Pages. The Doxygen
 1. Connect to Host in New Window
 2. Open a terminal (ctrl+\`)
 1. Initialize git if you haven't already using the same email you used on your GitHub account:
-    1. `git config --global user.email "you@example.com"`
-    1. `git config --global user.name "Your Name"`
+    1. `git config --global user.email "addis.bogale@ucollge.edu"`
+    1. `git config --global user.name "addisgithub"`
 3. Navigate to the parent directory for your project
 4. Clone your repository using the URL from the GitHub Code button on your repository and on VS Code either clone repository on the Welcome screen or open the Command Palette (ctrl+shift+P), type `git clone` and select `Git: Clone`
     1. Select the parent directory for your project
@@ -25,7 +29,7 @@ Demonstrates Doxygen html generation and publishing on GitHub Pages. The Doxygen
 6. If you wait a bit it should ask you which kit you want to use (at the time of this writing I typically use GCC 9.3.0)
 7. Allow Intellisense if prompted
 8. Edit README.md to reflect your new project
-9. Edit the `project` line in the CMakeLists.txt file to have your project's name and version
+9. Edit the `AddisHW5(ProjectName)` line in the CMakeLists.txt file to have your project's name and version
 10. Edit the `add_executable` line in the CMakeLists.txt file to change the name of the executable file to something relevant
 11. Change the @brief, @details, @author, and @date in src/main.cpp
 1. To create the PDF on a standard Ubuntu install, the following need to be added: `sudo apt install graphviz texlive-latex-base texlive-latex-recommended texlive-latex-extra`
